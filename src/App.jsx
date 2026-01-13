@@ -6,6 +6,7 @@ import Posts from './Posts'
 import Players from './Players';
 import './App.css'
 import { Suspense } from 'react';
+import CounterApp from './tasks/CounterApp';
 
 // const fetchUsers = fetch("https://jsonplaceholder.typicode.com/users")
 // .then(res => res.json())
@@ -87,6 +88,10 @@ function App() {
       <button onClick={() => handleAdd5(7)}>Click Add 5</button>
 
       <button onClick={() => handleAdd10(10)}>click add 10</button>
+
+
+
+      <CounterApp></CounterApp>
 
      
     </>
