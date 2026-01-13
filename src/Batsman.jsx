@@ -1,6 +1,11 @@
 import { useState } from "react"
 
 export default function Batsman(){
+
+
+
+
+
     const [runs, setRuns] = useState(0);
     const [sixes, setSixes] = useState(0)
     const handleSingle = () => {
@@ -13,6 +18,10 @@ export default function Batsman(){
         setSixes(updateSixes);
         setRuns(updateRuns);
     }
+
+
+
+   
     return(
         <div>
         <h3>Player: Bangla Batsman</h3>

@@ -3,7 +3,8 @@ import Post from './Post'
 
 export default function Posts({postsPromise}){
     const posts = use(postsPromise)
-    console.log(posts)
+    console.log(posts);
+    
     return(
         <div className="card">
             <h2>All post are here: {posts.length}</h2>
